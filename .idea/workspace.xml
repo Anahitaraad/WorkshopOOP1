@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="449865d4-dc58-435d-8ea1-75ff1cbf8633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/PersonIdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lexicon/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lexicon/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lexicon/PersonTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="449865d4-dc58-435d-8ea1-75ff1cbf8633" name="Changes" comment="Loan method is done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,6 +136,35 @@
       <option name="presentableId" value="Default" />
       <updated>1691568741225</updated>
     </task>
+    <task id="LOCAL-00001" summary="Loan method is done">
+      <option name="closed" value="true" />
+      <created>1691673946923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691673946923</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Loan method is done">
+      <option name="closed" value="true" />
+      <created>1691674002822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691674002822</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Loan method is done">
+      <option name="closed" value="true" />
+      <created>1691674076045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691674076045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Loan method is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loan method is done" />
   </component>
 </project>
