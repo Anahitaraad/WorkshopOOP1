@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="449865d4-dc58-435d-8ea1-75ff1cbf8633" name="Changes" comment="">
+    <list default="true" id="449865d4-dc58-435d-8ea1-75ff1cbf8633" name="Changes" comment="Loan method is done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/PersonIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/sequencer/PersonIdGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lexicon/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lexicon/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lexicon/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lexicon/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2TjuJXAlVa2L3BULUElNhfJUKpD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,22 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/AndersLorén/Lexicon lectures/OOP_workshop_9_aug"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AndersLorén/Lexicon lectures/OOP_workshop_9_aug&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lexicon.App" />
       <module name="OOP_workshop_9_aug" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lexicon.*" />
+          <option name="PATTERN" value="lexicon.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,33 +77,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.showPersonWhoBorrowedIsTheCorrectBorrower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_workshop_9_aug" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lexicon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lexicon" />
-      <option name="MAIN_CLASS_NAME" value="lexicon.BookTest" />
-      <option name="METHOD_NAME" value="showPersonWhoBorrowedIsTheCorrectBorrower" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.loanBookAddsToBorrowedBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_workshop_9_aug" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lexicon.*" />
+          <option name="PATTERN" value="lexicon.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lexicon" />
       <option name="MAIN_CLASS_NAME" value="lexicon.PersonTest" />
-      <option name="METHOD_NAME" value="loanBookAddsToBorrowedBooks(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.displayBooksPrintsOutBooksPersonHasBorrowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_workshop_9_aug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lexicon.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lexicon" />
+      <option name="MAIN_CLASS_NAME" value="lexicon.PersonTest" />
+      <option name="METHOD_NAME" value="displayBooksPrintsOutBooksPersonHasBorrowed(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,7 +112,7 @@
       <module name="OOP_workshop_9_aug" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lexicon.*" />
+          <option name="PATTERN" value="lexicon.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,18 +124,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.loanBooksAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.removeBookShouldReturnNullOnRow1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_workshop_9_aug" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lexicon.*" />
+          <option name="PATTERN" value="lexicon.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lexicon" />
       <option name="MAIN_CLASS_NAME" value="lexicon.PersonTest" />
-      <option name="METHOD_NAME" value="loanBooksAvailable(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="METHOD_NAME" value="removeBookShouldReturnNullOnRow1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,10 +154,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.BookTest.showPersonWhoBorrowedIsTheCorrectBorrower" />
+        <item itemvalue="JUnit.PersonTest.removeBookShouldReturnNullOnRow1" />
+        <item itemvalue="JUnit.PersonTest.displayBooksPrintsOutBooksPersonHasBorrowed" />
         <item itemvalue="JUnit.PersonTest.loanBookAvailableFalseIfBookAlreadyLend" />
-        <item itemvalue="JUnit.PersonTest.loanBookAddsToBorrowedBooks" />
-        <item itemvalue="JUnit.PersonTest.loanBooksAvailable" />
+        <item itemvalue="JUnit.PersonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,5 +171,41 @@
       <updated>1691568741225</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/lexicon/model/Book.java</url>
+          <line>37</line>
+          <properties class="lexicon.model.Book" method="showPerson">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="borrowedBooks" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="person.borrowedBooks" language="JAVA" />
+        <watch expression="book.getTitle()" language="JAVA" />
+        <watch expression="book.getAuthor()" language="JAVA" />
+        <watch expression="element.substring(0,element.indexOf(&quot;,&quot;))" language="JAVA" />
+        <watch expression="element.substring(element.indexOf(&quot;,&quot;)+1)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OOP_workshop_9_aug$BookTest_createBookObjectSetsAvailableForThatBookToTrue.ic" NAME="BookTest.createBookObjectSetsAvailableForThatBookToTrue Coverage Results" MODIFIED="1691767011771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lexicon.*</FILTER>
+    </SUITE>
   </component>
 </project>

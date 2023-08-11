@@ -1,4 +1,4 @@
-package lexicon;
+package lexicon.model;
 
 import java.util.UUID;
 
@@ -32,10 +32,10 @@ public class Book {
     // *******
     // Methods
     // *******
-    public Person showPersonWhoBorrowed(Book book){
+
+    public Person showPerson(Book book){ // Seems to be redundant, we can just use book.getBorrower()
         return book.getBorrower();
     }
-    // TODO: Remove
 
     // *****************
     // Getters & Setters
